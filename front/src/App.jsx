@@ -3,6 +3,8 @@
 //importar los componentes
 
 import ShowBlogs from "./components/ShowBlogs"
+import ShowCompras from "./components/ShowCompras"
+import ShowFacturas from "./components/ShowFacturas"
 import {EditBlog} from "./components/EditBlog"
 import {CreateBlog} from "./components/CreateBlog" 
 
@@ -19,8 +21,8 @@ function App() {
 
                 <Route path='/create' element={<CreateBlog/>}  />
                 <Route path='/edit/:id' element={<EditBlog/>}  />
-
-
+                <Route path='/compras' element={<ShowCompras/>}  />
+                <Route path='/facturar' element={<ShowFacturas/>}  />
             </Routes>
         </BrowserRouter>
     </div>

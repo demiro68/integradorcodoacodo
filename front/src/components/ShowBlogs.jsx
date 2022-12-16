@@ -39,10 +39,10 @@ return (
 							<a class="nav-link" href="/" style={{ color: 'white'}}>Inicio</a> 
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/crear" style={{ color: 'white'}}>Facturar</a>
+							<a class="nav-link" href="/facturar" style={{ color: 'white'}}>Facturar</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/blogs"style={{ color: 'white'}} >Blogs</a>
+							<a class="nav-link" href="/compras"style={{ color: 'white'}} >Compras</a>
 						</li>
 					</ul>
 				</div>
